@@ -5,3 +5,4 @@ report-04-smoketest100	4960a6d8dcfd4191	2026-06-14 10:45 PDT	Report #4 — 100-r
 report-05-rehearsal-interim	d35c65edfb3a183d	2026-06-14 11:18 PDT	Report #5 — Full-pipeline rehearsal (100 realizations): interim
 report-preview-mini-rehearsal	1439d050bbb9f8e8	2026-06-14 15:25 PDT	Preview — mini-rehearsal (Hα z=1.4 σ-bands + 24-panel form)
 report-perz-live	fe63e82c3421d7e1	2026-06-15 10:51 PDT	Per-redshift results (live) — z=1.4 complete (1,642 realizations)
+report-06-diffsky-validation	15cb6c7575b02389	2026-06-15 13:20 PDT	Report #6 — Diffsky input validation: GSMF, sSFR–M*, SMHM (z=1.4)
