@@ -1,0 +1,7 @@
+report-01-recon	3f102013bad0b6f4	2026-06-14 05:35 PDT	Report #1 — Recon: pipeline state & footprint
+report-02-revive-calibrate	d91132c3a4eacb89	2026-06-14 05:42 PDT	Report #2 — Pipeline revived + v0 calibration (z=1.1)
+report-03-production-ready	7a93943f696cec44	2026-06-14 05:58 PDT	Report #3 — Production validated; ready for A3
+report-04-smoketest100	4960a6d8dcfd4191	2026-06-14 10:45 PDT	Report #4 — 100-realization smoke test: SLURM jobs + walltime finding
+report-05-rehearsal-interim	d35c65edfb3a183d	2026-06-14 11:18 PDT	Report #5 — Full-pipeline rehearsal (100 realizations): interim
+report-preview-mini-rehearsal	1439d050bbb9f8e8	2026-06-14 15:25 PDT	Preview — mini-rehearsal (Hα z=1.4 σ-bands + 24-panel form)
+report-perz-live	fe63e82c3421d7e1	2026-06-15 10:51 PDT	Per-redshift results (live) — z=1.4 complete (1,642 realizations)

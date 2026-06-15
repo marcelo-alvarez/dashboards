@@ -1,0 +1,54 @@
+{
+  "production": "full_v1.0 \u2014 full run (cosmosim CFS, worker pool)",
+  "updated": "2026-06-15 11:43 PDT",
+  "total": 19704,
+  "stages": {
+    "Completed": 10508,
+    "Running": 5,
+    "Pending": 9191,
+    "Staged": 0,
+    "Failed": 0
+  },
+  "stats": [
+    [
+      "Boxes",
+      "10,508 / 19,704 done \u00b7 5 in flight \u00b7 39709 GB"
+    ],
+    [
+      "Workers",
+      "2 running \u00b7 148 queued (cosmosim_g \u00b7 2 nodes \u00d7 1 h \u00b7 self-scheduling, auto-resubmit)"
+    ],
+    [
+      "Current redshift",
+      "z=0.200  (656 / 1642 realizations)"
+    ],
+    [
+      "Realization coverage",
+      "1642 of 1883 phases have complete inputs (241 excluded)"
+    ],
+    [
+      "Drain rate",
+      "~1549 boxes in the last hour"
+    ],
+    [
+      "Output catalogs (NERSC)",
+      "/global/cfs/cdirs/cosmosim/covariance_mocks/full_v1.0/catalogs/  (one dir per realization: rNNNN/mock_zZ.ZZZ.hdf5/)"
+    ],
+    [
+      "Run dir",
+      "/global/cfs/cdirs/cosmosim/covariance_mocks/full_v1.0/  \u2014  worklist.txt \u00b7 claims/ \u00b7 logs/worker_*.out"
+    ],
+    [
+      "Producing scripts",
+      "roman-grs-pit/covariance-mocks @ lean-output  \u2014  scripts/worker.sh  \u2192  scripts/generate_single_mock.py"
+    ],
+    [
+      "Charged to",
+      "cosmosim_g compute \u00b7 cosmosim CFS storage  (m4943 rehearsal superseded)"
+    ],
+    [
+      "Code",
+      "lean-output @ 4738802"
+    ]
+  ]
+}

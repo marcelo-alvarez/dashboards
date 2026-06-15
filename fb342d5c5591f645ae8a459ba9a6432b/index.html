@@ -1,0 +1,51 @@
+<!doctype html><html lang='en'><head><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'>
+<meta name='robots' content='noindex,nofollow'>
+<title>roman-covariance — dev dashboard</title>
+<style>
+:root { --fg:#1f2328; --muted:#656d76; --line:#d0d7de; --accent:#0969da; --soft:#f6f8fa;
+        --accent2:#1a7f37; --warn:#9a6700; }
+* { box-sizing:border-box; }
+body { font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+       max-width:760px; margin:0 auto; padding:2.6rem 1.3rem 4rem; color:var(--fg); line-height:1.55; }
+h1 { font-size:1.7rem; margin:0 0 .2rem; }
+.lead { color:var(--muted); margin:.2rem 0 1.8rem; font-size:.95rem; }
+.card { display:block; text-decoration:none; color:inherit; border:1px solid var(--line);
+        border-radius:11px; padding:.95rem 1.1rem; margin:.7rem 0; transition:.12s;
+        display:flex; align-items:baseline; gap:.9rem; }
+.card:hover { border-color:var(--accent); box-shadow:0 2px 10px rgba(9,105,218,.10); }
+.num { flex:none; font-weight:700; color:var(--accent); font-size:.95rem; width:2.2rem; }
+.body { flex:1; }
+.title { font-weight:600; font-size:1.02rem; }
+.date { color:var(--muted); font-size:.83rem; margin-top:.15rem; font-variant-numeric:tabular-nums; }
+.foot { color:var(--muted); font-size:.8rem; margin-top:2.2rem; border-top:1px solid var(--line); padding-top:1rem; }
+
+/* Overall run status (top of page, independent of the numbered reports) */
+.status { border:1px solid var(--line); border-radius:12px; padding:1.05rem 1.2rem; margin:0 0 2rem;
+          background:var(--soft); }
+.status-h { display:flex; align-items:baseline; gap:.6rem; margin-bottom:.7rem; }
+.status-h .t { font-weight:700; font-size:1.05rem; }
+.status-h .ts { margin-left:auto; color:var(--muted); font-size:.8rem; font-variant-numeric:tabular-nums; }
+.bar { height:9px; border-radius:6px; background:#e7ebef; overflow:hidden; display:flex; margin:.1rem 0 1rem; }
+.bar > i { display:block; height:100%; }
+.bar .b-done { background:var(--accent2); } .bar .b-run { background:var(--accent); }
+.bar .b-wait { background:#d4a72c; } .bar .b-stag { background:#c9d1d9; } .bar .b-fail { background:#cf222e; }
+.stage-tbl, .stat-tbl { width:100%; border-collapse:collapse; font-size:.88rem; }
+.stage-tbl th, .stage-tbl td { padding:.34rem .5rem; border-bottom:1px solid var(--line); text-align:left; }
+.stage-tbl th:nth-child(2), .stage-tbl td:nth-child(2),
+.stage-tbl th:nth-child(3), .stage-tbl td:nth-child(3) { text-align:right; font-variant-numeric:tabular-nums; }
+.stage-tbl .dot { display:inline-block; width:.6rem; height:.6rem; border-radius:50%; margin-right:.45rem; }
+.stage-tbl tr.total td { font-weight:700; border-top:2px solid var(--line); border-bottom:none; }
+.stat-tbl { margin-top:.9rem; }
+.stat-tbl td { padding:.3rem .5rem; border-bottom:1px solid var(--line); }
+.stat-tbl td:first-child { color:var(--muted); width:44%; }
+.stat-tbl tr:last-child td { border-bottom:none; }
+</style></head><body>
+<h1>roman-covariance — dev dashboard</h1>
+<p class="lead">Plain-English progress reports with embedded figures for the Roman GRS
+covariance-mocks pipeline. Unlisted; newest first.</p>
+<div class="status"><div class="status-h"><span class="t">Run status — full_v1.0 — full run (cosmosim CFS, worker pool)</span><span class="ts">updated 2026-06-15 11:43 PDT</span></div><div class="bar"><i class="b-done" style="width:53.33%"></i><i class="b-run" style="width:0.03%"></i><i class="b-wait" style="width:46.65%"></i></div><table class="stage-tbl"><thead><tr><th>Stage</th><th>Jobs</th><th>%</th></tr></thead><tbody><tr><td><span class="dot" style="background:var(--accent2)"></span>Completed</td><td>10,508</td><td>53.3%</td></tr><tr><td><span class="dot" style="background:var(--accent)"></span>Running</td><td>5</td><td>0.0%</td></tr><tr><td><span class="dot" style="background:#d4a72c"></span>Pending</td><td>9,191</td><td>46.6%</td></tr><tr><td><span class="dot" style="background:#c9d1d9"></span>Staged</td><td>0</td><td>0.0%</td></tr><tr><td><span class="dot" style="background:#cf222e"></span>Failed</td><td>0</td><td>0.0%</td></tr><tr class="total"><td>Total</td><td>19,704</td><td></td></tr></tbody></table><table class="stat-tbl"><tbody><tr><td>Boxes</td><td>10,508 / 19,704 done · 5 in flight · 39709 GB</td></tr><tr><td>Workers</td><td>2 running · 148 queued (cosmosim_g · 2 nodes × 1 h · self-scheduling, auto-resubmit)</td></tr><tr><td>Current redshift</td><td>z=0.200  (656 / 1642 realizations)</td></tr><tr><td>Realization coverage</td><td>1642 of 1883 phases have complete inputs (241 excluded)</td></tr><tr><td>Drain rate</td><td>~1549 boxes in the last hour</td></tr><tr><td>Output catalogs (NERSC)</td><td>/global/cfs/cdirs/cosmosim/covariance_mocks/full_v1.0/catalogs/  (one dir per realization: rNNNN/mock_zZ.ZZZ.hdf5/)</td></tr><tr><td>Run dir</td><td>/global/cfs/cdirs/cosmosim/covariance_mocks/full_v1.0/  —  worklist.txt · claims/ · logs/worker_*.out</td></tr><tr><td>Producing scripts</td><td>roman-grs-pit/covariance-mocks @ lean-output  —  scripts/worker.sh  →  scripts/generate_single_mock.py</td></tr><tr><td>Charged to</td><td>cosmosim_g compute · cosmosim CFS storage  (m4943 rehearsal superseded)</td></tr><tr><td>Code</td><td>lean-output @ 4738802</td></tr></tbody></table></div>
+<a class="card" href="r/d35c65edfb3a183d/"><span class="num">#5</span><span class="body"><span class="title">Report #5 — Full-pipeline rehearsal (100 realizations): interim</span><div class="date">2026-06-14 11:18 PDT</div></span></a><a class="card" href="r/4960a6d8dcfd4191/"><span class="num">#4</span><span class="body"><span class="title">Report #4 — 100-realization smoke test: SLURM jobs + walltime finding</span><div class="date">2026-06-14 10:45 PDT</div></span></a><a class="card" href="r/7a93943f696cec44/"><span class="num">#3</span><span class="body"><span class="title">Report #3 — Production validated; ready for A3</span><div class="date">2026-06-14 05:58 PDT</div></span></a><a class="card" href="r/d91132c3a4eacb89/"><span class="num">#2</span><span class="body"><span class="title">Report #2 — Pipeline revived + v0 calibration (z=1.1)</span><div class="date">2026-06-14 05:42 PDT</div></span></a><a class="card" href="r/3f102013bad0b6f4/"><span class="num">#1</span><span class="body"><span class="title">Report #1 — Recon: pipeline state & footprint</span><div class="date">2026-06-14 05:35 PDT</div></span></a><a class="card" href="r/1439d050bbb9f8e8/"><span class="num">prev</span><span class="body"><span class="title">Preview — mini-rehearsal (Hα z=1.4 σ-bands + 24-panel form)</span><div class="date">2026-06-14 15:25 PDT</div></span></a><a class="card" href="r/fe63e82c3421d7e1/"><span class="num">prev</span><span class="body"><span class="title">Per-redshift results (live) — z=1.4 complete (1,642 realizations)</span><div class="date">2026-06-15 10:51 PDT</div></span></a>
+<div class="foot">Generating ~2000 calibrated mock galaxy catalogs on Perlmutter (AbacusSummit
+&times; rgrspit_diffsky) to estimate covariance for the Roman GRS PIT. Reports are append-only.</div>
+</body></html>
