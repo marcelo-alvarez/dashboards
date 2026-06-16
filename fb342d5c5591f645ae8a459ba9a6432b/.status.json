@@ -1,48 +1,48 @@
 {
   "production": "sfr_v1.0 \u2014 SFR-only mocks (12 redshifts; cosmosim CFS)",
-  "updated": "2026-06-16 14:21 PDT",
+  "updated": "2026-06-16 14:32 PDT",
   "total": 21715,
   "stages": {
-    "Completed": 2608,
-    "Running": 26,
-    "Pending": 19081,
+    "Completed": 2687,
+    "Running": 22,
+    "Pending": 19006,
     "Staged": 0,
     "Failed": 0
   },
   "per_z": [
     {
       "z": "0.200",
-      "done": 60,
+      "done": 66,
       "total": 1643
     },
     {
       "z": "0.250",
-      "done": 62,
+      "done": 69,
       "total": 1687
     },
     {
       "z": "0.300",
-      "done": 62,
+      "done": 68,
       "total": 1710
     },
     {
       "z": "0.400",
-      "done": 63,
+      "done": 69,
       "total": 1748
     },
     {
       "z": "0.500",
-      "done": 65,
+      "done": 72,
       "total": 1786
     },
     {
       "z": "0.800",
-      "done": 68,
+      "done": 76,
       "total": 1844
     },
     {
       "z": "1.100",
-      "done": 69,
+      "done": 77,
       "total": 1883
     },
     {
@@ -52,33 +52,33 @@
     },
     {
       "z": "1.700",
-      "done": 71,
+      "done": 78,
       "total": 1883
     },
     {
       "z": "2.000",
-      "done": 69,
+      "done": 77,
       "total": 1883
     },
     {
       "z": "2.500",
-      "done": 71,
+      "done": 79,
       "total": 1883
     },
     {
       "z": "3.000",
-      "done": 70,
+      "done": 78,
       "total": 1883
     }
   ],
   "stats": [
     [
       "Boxes",
-      "2,608 / 21,715 done across 12 z \u00b7 26 in flight \u00b7 ~196 in the last hour"
+      "2,687 / 21,715 done across 12 z \u00b7 22 in flight \u00b7 ~262 in the last hour"
     ],
     [
       "Workers",
-      "15 running (5 premium + 10 regular) \u00b7 140 queued. Premium runs breadth-first over all z; regular fills z=1.4 depth. Self-scheduling, auto-resubmit."
+      "18 running (4 premium + 14 regular) \u00b7 136 queued. Premium runs breadth-first over all z; regular fills z=1.4 depth. Self-scheduling, auto-resubmit."
     ],
     [
       "Deliverable",
@@ -98,7 +98,7 @@
     ],
     [
       "Code",
-      "sfr-only @ 706be2f"
+      "sfr-only @ a24a00f"
     ]
   ]
 }
