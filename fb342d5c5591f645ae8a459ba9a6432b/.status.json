@@ -1,84 +1,84 @@
 {
   "production": "sfr_v1.0 \u2014 SFR-only mocks (12 redshifts; cosmosim CFS)",
-  "updated": "2026-06-16 10:07 PDT",
+  "updated": "2026-06-16 10:18 PDT",
   "total": 21715,
   "stages": {
-    "Completed": 1995,
-    "Running": 13,
-    "Pending": 19707,
+    "Completed": 2090,
+    "Running": 15,
+    "Pending": 19610,
     "Staged": 0,
     "Failed": 0
   },
   "per_z": [
     {
       "z": "0.200",
-      "done": 26,
+      "done": 29,
       "total": 1643
     },
     {
       "z": "0.250",
-      "done": 28,
+      "done": 31,
       "total": 1687
     },
     {
       "z": "0.300",
-      "done": 28,
+      "done": 31,
       "total": 1710
     },
     {
       "z": "0.400",
-      "done": 29,
+      "done": 32,
       "total": 1748
     },
     {
       "z": "0.500",
-      "done": 30,
+      "done": 33,
       "total": 1786
     },
     {
       "z": "0.800",
-      "done": 30,
+      "done": 33,
       "total": 1844
     },
     {
       "z": "1.100",
-      "done": 32,
+      "done": 34,
       "total": 1883
     },
     {
       "z": "1.400",
-      "done": 1661,
+      "done": 1728,
       "total": 1882
     },
     {
       "z": "1.700",
-      "done": 33,
+      "done": 35,
       "total": 1883
     },
     {
       "z": "2.000",
-      "done": 32,
+      "done": 34,
       "total": 1883
     },
     {
       "z": "2.500",
-      "done": 33,
+      "done": 35,
       "total": 1883
     },
     {
       "z": "3.000",
-      "done": 33,
+      "done": 35,
       "total": 1883
     }
   ],
   "stats": [
     [
       "Boxes",
-      "1,995 / 21,715 done across 12 z \u00b7 13 in flight \u00b7 ~460 in the last hour"
+      "2,090 / 21,715 done across 12 z \u00b7 15 in flight \u00b7 ~459 in the last hour"
     ],
     [
       "Workers",
-      "8 running (3 premium + 5 regular) \u00b7 55 queued. Premium runs breadth-first over all z; regular fills z=1.4 depth. Self-scheduling, auto-resubmit."
+      "10 running (3 premium + 7 regular) \u00b7 53 queued. Premium runs breadth-first over all z; regular fills z=1.4 depth. Self-scheduling, auto-resubmit."
     ],
     [
       "Deliverable",
