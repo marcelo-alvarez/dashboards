@@ -6,8 +6,10 @@
 :root { --fg:#1f2328; --muted:#656d76; --line:#d0d7de; --accent:#0969da; --soft:#f6f8fa;
         --accent2:#1a7f37; --warn:#9a6700; }
 * { box-sizing:border-box; }
+html { -webkit-text-size-adjust:100%; overflow-x:hidden; }
 body { font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
-       max-width:1000px; margin:0 auto; padding:2.6rem 1.3rem 4rem; color:var(--fg); line-height:1.55; }
+       max-width:1000px; margin:0 auto; padding:2.6rem 1.3rem 4rem; color:var(--fg); line-height:1.55;
+       overflow-x:hidden; }
 h1 { font-size:1.7rem; margin:0 0 .2rem; }
 .lead { color:var(--muted); margin:.2rem 0 1.8rem; font-size:.95rem; }
 
@@ -54,9 +56,10 @@ details.archive[open] > summary { margin-bottom:.5rem; }
 .stage-tbl th:nth-child(3), .stage-tbl td:nth-child(3) { text-align:right; font-variant-numeric:tabular-nums; }
 .stage-tbl .dot { display:inline-block; width:.6rem; height:.6rem; border-radius:50%; margin-right:.45rem; }
 .stage-tbl tr.total td { font-weight:700; border-top:2px solid var(--line); border-bottom:none; }
-.stat-tbl { margin-top:.9rem; }
-.stat-tbl td { padding:.3rem .5rem; border-bottom:1px solid var(--line); }
-.stat-tbl td:first-child { color:var(--muted); width:44%; }
+.stat-tbl { margin-top:.9rem; table-layout:fixed; }
+.stat-tbl td { padding:.3rem .5rem; border-bottom:1px solid var(--line);
+               overflow-wrap:anywhere; word-break:break-word; }
+.stat-tbl td:first-child { color:var(--muted); width:38%; }
 .stat-tbl tr:last-child td { border-bottom:none; }
 </style></head><body>
 <h1>roman-covariance — report archive</h1>
