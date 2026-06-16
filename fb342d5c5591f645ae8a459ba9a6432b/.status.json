@@ -1,48 +1,48 @@
 {
   "production": "sfr_v1.0 \u2014 SFR-only mocks (12 redshifts; cosmosim CFS)",
-  "updated": "2026-06-16 13:52 PDT",
+  "updated": "2026-06-16 14:02 PDT",
   "total": 21715,
   "stages": {
-    "Completed": 2462,
-    "Running": 11,
-    "Pending": 19242,
+    "Completed": 2495,
+    "Running": 26,
+    "Pending": 19194,
     "Staged": 0,
     "Failed": 0
   },
   "per_z": [
     {
       "z": "0.200",
-      "done": 47,
+      "done": 50,
       "total": 1643
     },
     {
       "z": "0.250",
-      "done": 49,
+      "done": 52,
       "total": 1687
     },
     {
       "z": "0.300",
-      "done": 49,
+      "done": 52,
       "total": 1710
     },
     {
       "z": "0.400",
-      "done": 50,
+      "done": 53,
       "total": 1748
     },
     {
       "z": "0.500",
-      "done": 52,
+      "done": 55,
       "total": 1786
     },
     {
       "z": "0.800",
-      "done": 54,
+      "done": 57,
       "total": 1844
     },
     {
       "z": "1.100",
-      "done": 56,
+      "done": 59,
       "total": 1883
     },
     {
@@ -52,33 +52,33 @@
     },
     {
       "z": "1.700",
-      "done": 57,
+      "done": 60,
       "total": 1883
     },
     {
       "z": "2.000",
-      "done": 56,
+      "done": 59,
       "total": 1883
     },
     {
       "z": "2.500",
-      "done": 57,
+      "done": 60,
       "total": 1883
     },
     {
       "z": "3.000",
-      "done": 57,
+      "done": 60,
       "total": 1883
     }
   ],
   "stats": [
     [
       "Boxes",
-      "2,462 / 21,715 done across 12 z \u00b7 11 in flight \u00b7 ~74 in the last hour"
+      "2,495 / 21,715 done across 12 z \u00b7 26 in flight \u00b7 ~98 in the last hour"
     ],
     [
       "Workers",
-      "5 running (5 premium + 0 regular) \u00b7 150 queued. Premium runs breadth-first over all z; regular fills z=1.4 depth. Self-scheduling, auto-resubmit."
+      "11 running (5 premium + 6 regular) \u00b7 144 queued. Premium runs breadth-first over all z; regular fills z=1.4 depth. Self-scheduling, auto-resubmit."
     ],
     [
       "Deliverable",
