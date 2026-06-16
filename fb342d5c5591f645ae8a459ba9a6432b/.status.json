@@ -1,11 +1,11 @@
 {
   "production": "sfr_v1.0 \u2014 SFR-only mocks (12 redshifts; cosmosim CFS)",
-  "updated": "2026-06-16 10:06 PDT",
+  "updated": "2026-06-16 10:07 PDT",
   "total": 21715,
   "stages": {
-    "Completed": 1992,
+    "Completed": 1995,
     "Running": 13,
-    "Pending": 19710,
+    "Pending": 19707,
     "Staged": 0,
     "Failed": 0
   },
@@ -47,7 +47,7 @@
     },
     {
       "z": "1.400",
-      "done": 1658,
+      "done": 1661,
       "total": 1882
     },
     {
@@ -74,7 +74,7 @@
   "stats": [
     [
       "Boxes",
-      "1,992 / 21,715 done across 12 z \u00b7 13 in flight \u00b7 ~465 in the last hour"
+      "1,995 / 21,715 done across 12 z \u00b7 13 in flight \u00b7 ~460 in the last hour"
     ],
     [
       "Workers",
