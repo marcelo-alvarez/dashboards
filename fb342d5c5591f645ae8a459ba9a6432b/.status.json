@@ -1,48 +1,48 @@
 {
   "production": "sfr_v1.0 \u2014 SFR-only mocks (12 redshifts; cosmosim CFS)",
-  "updated": "2026-06-16 14:12 PDT",
+  "updated": "2026-06-16 14:21 PDT",
   "total": 21715,
   "stages": {
-    "Completed": 2552,
-    "Running": 23,
-    "Pending": 19140,
+    "Completed": 2608,
+    "Running": 26,
+    "Pending": 19081,
     "Staged": 0,
     "Failed": 0
   },
   "per_z": [
     {
       "z": "0.200",
-      "done": 55,
+      "done": 60,
       "total": 1643
     },
     {
       "z": "0.250",
-      "done": 57,
+      "done": 62,
       "total": 1687
     },
     {
       "z": "0.300",
-      "done": 57,
+      "done": 62,
       "total": 1710
     },
     {
       "z": "0.400",
-      "done": 58,
+      "done": 63,
       "total": 1748
     },
     {
       "z": "0.500",
-      "done": 61,
+      "done": 65,
       "total": 1786
     },
     {
       "z": "0.800",
-      "done": 63,
+      "done": 68,
       "total": 1844
     },
     {
       "z": "1.100",
-      "done": 64,
+      "done": 69,
       "total": 1883
     },
     {
@@ -52,29 +52,29 @@
     },
     {
       "z": "1.700",
-      "done": 65,
+      "done": 71,
       "total": 1883
     },
     {
       "z": "2.000",
-      "done": 64,
+      "done": 69,
       "total": 1883
     },
     {
       "z": "2.500",
-      "done": 65,
+      "done": 71,
       "total": 1883
     },
     {
       "z": "3.000",
-      "done": 65,
+      "done": 70,
       "total": 1883
     }
   ],
   "stats": [
     [
       "Boxes",
-      "2,552 / 21,715 done across 12 z \u00b7 23 in flight \u00b7 ~146 in the last hour"
+      "2,608 / 21,715 done across 12 z \u00b7 26 in flight \u00b7 ~196 in the last hour"
     ],
     [
       "Workers",
