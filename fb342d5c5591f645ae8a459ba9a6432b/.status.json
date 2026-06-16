@@ -3,8 +3,8 @@
   "updated": "2026-06-16 11:44 PDT",
   "total": 21715,
   "stages": {
-    "Completed": 2314,
-    "Running": 9,
+    "Completed": 2315,
+    "Running": 8,
     "Pending": 19392,
     "Staged": 0,
     "Failed": 0
@@ -17,7 +17,7 @@
     },
     {
       "z": "0.250",
-      "done": 36,
+      "done": 37,
       "total": 1687
     },
     {
@@ -74,7 +74,7 @@
   "stats": [
     [
       "Boxes",
-      "2,314 / 21,715 done across 12 z \u00b7 9 in flight \u00b7 ~146 in the last hour"
+      "2,315 / 21,715 done across 12 z \u00b7 8 in flight \u00b7 ~142 in the last hour"
     ],
     [
       "Workers",
