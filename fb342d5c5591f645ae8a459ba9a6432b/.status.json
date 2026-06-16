@@ -1,54 +1,54 @@
 {
-  "production": "full_v1.0 \u2014 full run (cosmosim CFS, worker pool)",
-  "updated": "2026-06-15 11:43 PDT",
-  "total": 19704,
+  "production": "sfr_v1.0 \u2014 SFR-only mocks (z=1.4 first; cosmosim CFS, worker pool)",
+  "updated": "2026-06-16 07:50 PDT",
+  "total": 1882,
   "stages": {
-    "Completed": 10508,
-    "Running": 5,
-    "Pending": 9191,
+    "Completed": 724,
+    "Running": 16,
+    "Pending": 1142,
     "Staged": 0,
     "Failed": 0
   },
   "stats": [
     [
-      "Boxes",
-      "10,508 / 19,704 done \u00b7 5 in flight \u00b7 39709 GB"
+      "Boxes (z=1.400)",
+      "724 / 1,882 done \u00b7 16 in flight \u00b7 ~2153 GB"
     ],
     [
       "Workers",
-      "2 running \u00b7 148 queued (cosmosim_g \u00b7 2 nodes \u00d7 1 h \u00b7 self-scheduling, auto-resubmit)"
-    ],
-    [
-      "Current redshift",
-      "z=0.200  (656 / 1642 realizations)"
-    ],
-    [
-      "Realization coverage",
-      "1642 of 1883 phases have complete inputs (241 excluded)"
+      "17 running (3 premium + 14 regular) \u00b7 46 queued (self-scheduling, auto-resubmit; 5 premium + regular backfill pool)"
     ],
     [
       "Drain rate",
-      "~1549 boxes in the last hour"
+      "~472 boxes in the last hour"
     ],
     [
-      "Output catalogs (NERSC)",
-      "/global/cfs/cdirs/cosmosim/covariance_mocks/full_v1.0/catalogs/  (one dir per realization: rNNNN/mock_zZ.ZZZ.hdf5/)"
+      "Deliverable",
+      "SFR-only catalogs: sfr_corr (UM-corrected, f1\u2218f2) + sfr_raw, mstar_corr, mstar_raw, mpeak, position, velocity; companion n(>sfr_corr,z). No line luminosities, no selection."
+    ],
+    [
+      "Redshift plan",
+      "GRS window first: 1.4 \u2192 1.7 \u2192 2.5 \u2192 1.1 \u2192 2.0 \u2192 3.0, then the rest low\u2192high"
+    ],
+    [
+      "Output (NERSC)",
+      "/global/cfs/cdirs/cosmosim/covariance_mocks/sfr_v1.0/catalogs/rNNNN/mock_z1.400.hdf5"
     ],
     [
       "Run dir",
-      "/global/cfs/cdirs/cosmosim/covariance_mocks/full_v1.0/  \u2014  worklist.txt \u00b7 claims/ \u00b7 logs/worker_*.out"
+      "/global/cfs/cdirs/cosmosim/covariance_mocks/sfr_v1.0/  \u2014  worklist_z1.400.txt \u00b7 claims_z1.400/ \u00b7 logs/"
     ],
     [
       "Producing scripts",
-      "roman-grs-pit/covariance-mocks @ lean-output  \u2014  scripts/worker.sh  \u2192  scripts/generate_single_mock.py"
+      "covariance-mocks @ sfr-only  \u2014  scripts/worker_sfr.sh \u2192 generate_single_mock.py"
     ],
     [
       "Charged to",
-      "cosmosim_g compute \u00b7 cosmosim CFS storage  (m4943 rehearsal superseded)"
+      "cosmosim_g compute (gpu_premium, free) \u00b7 cosmosim CFS storage"
     ],
     [
       "Code",
-      "lean-output @ 4738802"
+      "sfr-only @ c8aaa51"
     ]
   ]
 }
