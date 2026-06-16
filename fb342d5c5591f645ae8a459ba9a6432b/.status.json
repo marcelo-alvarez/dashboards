@@ -1,53 +1,53 @@
 {
   "production": "sfr_v1.0 \u2014 SFR-only mocks (12 redshifts; cosmosim CFS)",
-  "updated": "2026-06-16 10:32 PDT",
+  "updated": "2026-06-16 10:44 PDT",
   "total": 21715,
   "stages": {
-    "Completed": 2133,
-    "Running": 13,
-    "Pending": 19569,
+    "Completed": 2173,
+    "Running": 15,
+    "Pending": 19527,
     "Staged": 0,
     "Failed": 0
   },
   "per_z": [
     {
       "z": "0.200",
-      "done": 29,
+      "done": 30,
       "total": 1643
     },
     {
       "z": "0.250",
-      "done": 31,
+      "done": 32,
       "total": 1687
     },
     {
       "z": "0.300",
-      "done": 31,
+      "done": 32,
       "total": 1710
     },
     {
       "z": "0.400",
-      "done": 32,
+      "done": 33,
       "total": 1748
     },
     {
       "z": "0.500",
-      "done": 34,
+      "done": 35,
       "total": 1786
     },
     {
       "z": "0.800",
-      "done": 35,
+      "done": 36,
       "total": 1844
     },
     {
       "z": "1.100",
-      "done": 36,
+      "done": 37,
       "total": 1883
     },
     {
       "z": "1.400",
-      "done": 1757,
+      "done": 1787,
       "total": 1882
     },
     {
@@ -57,28 +57,28 @@
     },
     {
       "z": "2.000",
-      "done": 36,
+      "done": 37,
       "total": 1883
     },
     {
       "z": "2.500",
-      "done": 37,
+      "done": 38,
       "total": 1883
     },
     {
       "z": "3.000",
-      "done": 37,
+      "done": 38,
       "total": 1883
     }
   ],
   "stats": [
     [
       "Boxes",
-      "2,133 / 21,715 done across 12 z \u00b7 13 in flight \u00b7 ~360 in the last hour"
+      "2,173 / 21,715 done across 12 z \u00b7 15 in flight \u00b7 ~305 in the last hour"
     ],
     [
       "Workers",
-      "10 running (3 premium + 7 regular) \u00b7 53 queued. Premium runs breadth-first over all z; regular fills z=1.4 depth. Self-scheduling, auto-resubmit."
+      "11 running (3 premium + 8 regular) \u00b7 52 queued. Premium runs breadth-first over all z; regular fills z=1.4 depth. Self-scheduling, auto-resubmit."
     ],
     [
       "Deliverable",
