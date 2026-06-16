@@ -1,45 +1,95 @@
 {
-  "production": "sfr_v1.0 \u2014 SFR-only mocks (z=1.4 first; cosmosim CFS, worker pool)",
-  "updated": "2026-06-16 09:06 PDT",
-  "total": 1882,
+  "production": "sfr_v1.0 \u2014 SFR-only mocks (12 redshifts; cosmosim CFS)",
+  "updated": "2026-06-16 09:16 PDT",
+  "total": 21715,
   "stages": {
-    "Completed": 1325,
-    "Running": 11,
-    "Pending": 546,
+    "Completed": 1598,
+    "Running": 16,
+    "Pending": 20101,
     "Staged": 0,
     "Failed": 0
   },
+  "per_z": [
+    {
+      "z": "0.200",
+      "done": 18,
+      "total": 1643
+    },
+    {
+      "z": "0.250",
+      "done": 19,
+      "total": 1687
+    },
+    {
+      "z": "0.300",
+      "done": 19,
+      "total": 1710
+    },
+    {
+      "z": "0.400",
+      "done": 20,
+      "total": 1748
+    },
+    {
+      "z": "0.500",
+      "done": 19,
+      "total": 1786
+    },
+    {
+      "z": "0.800",
+      "done": 19,
+      "total": 1844
+    },
+    {
+      "z": "1.100",
+      "done": 20,
+      "total": 1883
+    },
+    {
+      "z": "1.400",
+      "done": 1381,
+      "total": 1882
+    },
+    {
+      "z": "1.700",
+      "done": 21,
+      "total": 1883
+    },
+    {
+      "z": "2.000",
+      "done": 20,
+      "total": 1883
+    },
+    {
+      "z": "2.500",
+      "done": 21,
+      "total": 1883
+    },
+    {
+      "z": "3.000",
+      "done": 21,
+      "total": 1883
+    }
+  ],
   "stats": [
     [
-      "Boxes (z=1.400)",
-      "1,325 / 1,882 done \u00b7 11 in flight \u00b7 ~3903 GB"
+      "Boxes",
+      "1,598 / 21,715 done across 12 z \u00b7 16 in flight \u00b7 ~547 in the last hour"
     ],
     [
       "Workers",
-      "11 running (3 premium + 8 regular) \u00b7 52 queued (self-scheduling, auto-resubmit; 5 premium + regular backfill pool)"
-    ],
-    [
-      "Drain rate",
-      "~394 boxes in the last hour"
+      "11 running (3 premium + 8 regular) \u00b7 52 queued. Premium runs breadth-first over all z; regular fills z=1.4 depth. Self-scheduling, auto-resubmit."
     ],
     [
       "Deliverable",
       "SFR-only catalogs: sfr_corr (UM-corrected, f1\u2218f2) + sfr_raw, mstar_corr, mstar_raw, mpeak, position, velocity; companion n(>sfr_corr,z). No line luminosities, no selection."
     ],
     [
-      "Redshift plan",
-      "GRS window first: 1.4 \u2192 1.7 \u2192 2.5 \u2192 1.1 \u2192 2.0 \u2192 3.0, then the rest low\u2192high"
-    ],
-    [
       "Output (NERSC)",
-      "/global/cfs/cdirs/cosmosim/covariance_mocks/sfr_v1.0/catalogs/rNNNN/mock_z1.400.hdf5"
+      "/global/cfs/cdirs/cosmosim/covariance_mocks/sfr_v1.0/catalogs/rNNNN/mock_z<z>.hdf5"
     ],
     [
-      "Run dir",
-      "/global/cfs/cdirs/cosmosim/covariance_mocks/sfr_v1.0/  \u2014  worklist_z1.400.txt \u00b7 claims_z1.400/ \u00b7 logs/"
-    ],
-    [
-      "Producing scripts",
+      "Producing code",
       "covariance-mocks @ sfr-only  \u2014  scripts/worker_sfr.sh \u2192 generate_single_mock.py"
     ],
     [

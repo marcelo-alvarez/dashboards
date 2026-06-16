@@ -61,6 +61,14 @@ details.archive[open] > summary { margin-bottom:.5rem; }
                overflow-wrap:anywhere; word-break:break-word; }
 .stat-tbl td:first-child { color:var(--muted); width:38%; }
 .stat-tbl tr:last-child td { border-bottom:none; }
+.zgrid { display:grid; grid-template-columns:repeat(auto-fill, minmax(110px, 1fr));
+         gap:.45rem; margin:1rem 0 .2rem; }
+.zcell { border:1px solid var(--line); border-radius:8px; padding:.4rem .5rem; }
+.zhd { display:flex; align-items:baseline; gap:.4rem; font-size:.8rem; }
+.zlab { font-weight:700; }
+.znum { margin-left:auto; color:var(--muted); font-variant-numeric:tabular-nums; font-size:.74rem; }
+.zbar { height:5px; background:#e7ebef; border-radius:3px; margin-top:.35rem; overflow:hidden; }
+.zbar i { display:block; height:100%; background:var(--accent2); }
 </style></head><body>
 <h1>roman-covariance — report archive</h1>
 <p class="lead">All numbered reports, newest first. Unlisted.</p>
