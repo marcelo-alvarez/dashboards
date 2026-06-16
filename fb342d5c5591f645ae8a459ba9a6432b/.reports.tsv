@@ -7,4 +7,4 @@ report-preview-mini-rehearsal	1439d050bbb9f8e8	2026-06-14 15:25 PDT	Preview — 
 report-perz-live	fe63e82c3421d7e1	2026-06-15 10:51 PDT	Per-redshift results (live) — z=1.4 complete (1,642 realizations)
 report-06-diffsky-validation	15cb6c7575b02389	2026-06-15 13:20 PDT	Report #6 — Diffsky input validation: GSMF, sSFR–M*, SMHM (z=1.4)
 report-07-ssfr-source	c7e25a64f6025759	2026-06-15 15:38 PDT	Report #7 — Source of the diffsky sSFR offset (factor isolation, z=1.4)
-report-08-recalibration	3db5a5a5dd7b0f47	2026-06-15 18:55 PDT	Recalibration diagnostic (z=1.4) — calibrated to UM/Behroozi+2019
+report-08-recalibration	3db5a5a5dd7b0f47	2026-06-15 18:55 PDT	Recalibration diagnostic (z=1.4) — iteration 3
