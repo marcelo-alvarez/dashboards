@@ -8,4 +8,4 @@ report-perz-live	fe63e82c3421d7e1	2026-06-15 10:51 PDT	Per-redshift results (liv
 report-06-diffsky-validation	15cb6c7575b02389	2026-06-15 13:20 PDT	Report #6 — Diffsky input validation: GSMF, sSFR–M*, SMHM (z=1.4)
 report-07-ssfr-source	c7e25a64f6025759	2026-06-15 15:38 PDT	Report #7 — Source of the diffsky sSFR offset (factor isolation, z=1.4)
 report-08-recalibration	3db5a5a5dd7b0f47	2026-06-15 18:55 PDT	Recalibration diagnostic (z=1.4) — iteration 3
-report-09-sfr-distribution-match	56f8dfd2eadfa15a	2026-06-15 21:31 PDT	Report #9 — Matching diffsky SFRs to UniverseMachine: distribution + total SFRD preserved (z=1.4)
+report-09-sfr-distribution-match	56f8dfd2eadfa15a	2026-06-15 22:45 PDT	diffsky→UM z=1.409 — GSMF self-consistency + mean sSFR
