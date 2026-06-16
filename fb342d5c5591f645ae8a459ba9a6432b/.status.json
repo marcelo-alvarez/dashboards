@@ -1,48 +1,48 @@
 {
   "production": "sfr_v1.0 \u2014 SFR-only mocks (12 redshifts; cosmosim CFS)",
-  "updated": "2026-06-16 14:52 PDT",
+  "updated": "2026-06-16 15:01 PDT",
   "total": 21715,
   "stages": {
-    "Completed": 2911,
-    "Running": 67,
-    "Pending": 18737,
+    "Completed": 3079,
+    "Running": 55,
+    "Pending": 18581,
     "Staged": 0,
     "Failed": 0
   },
   "per_z": [
     {
       "z": "0.200",
-      "done": 86,
+      "done": 101,
       "total": 1643
     },
     {
       "z": "0.250",
-      "done": 88,
+      "done": 101,
       "total": 1687
     },
     {
       "z": "0.300",
-      "done": 89,
+      "done": 103,
       "total": 1710
     },
     {
       "z": "0.400",
-      "done": 90,
+      "done": 103,
       "total": 1748
     },
     {
       "z": "0.500",
-      "done": 93,
+      "done": 108,
       "total": 1786
     },
     {
       "z": "0.800",
-      "done": 96,
+      "done": 112,
       "total": 1844
     },
     {
       "z": "1.100",
-      "done": 97,
+      "done": 113,
       "total": 1883
     },
     {
@@ -52,33 +52,33 @@
     },
     {
       "z": "1.700",
-      "done": 99,
+      "done": 114,
       "total": 1883
     },
     {
       "z": "2.000",
-      "done": 97,
+      "done": 115,
       "total": 1883
     },
     {
       "z": "2.500",
-      "done": 100,
+      "done": 117,
       "total": 1883
     },
     {
       "z": "3.000",
-      "done": 98,
+      "done": 114,
       "total": 1883
     }
   ],
   "stats": [
     [
       "Boxes",
-      "2,911 / 21,715 done across 12 z \u00b7 67 in flight \u00b7 ~449 in the last hour"
+      "3,079 / 21,715 done across 12 z \u00b7 55 in flight \u00b7 ~584 in the last hour"
     ],
     [
       "Workers",
-      "15 running (5 premium + 10 regular) \u00b7 140 queued. Premium runs breadth-first over all z; regular fills z=1.4 depth. Self-scheduling, auto-resubmit."
+      "11 running (5 premium + 6 regular) \u00b7 144 queued. Premium runs breadth-first over all z; regular fills z=1.4 depth. Self-scheduling, auto-resubmit."
     ],
     [
       "Deliverable",
