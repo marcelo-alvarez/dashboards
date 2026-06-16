@@ -1,18 +1,18 @@
 {
   "production": "sfr_v1.0 \u2014 SFR-only mocks (z=1.4 first; cosmosim CFS, worker pool)",
-  "updated": "2026-06-16 08:45 PDT",
+  "updated": "2026-06-16 08:53 PDT",
   "total": 1882,
   "stages": {
-    "Completed": 1209,
+    "Completed": 1259,
     "Running": 9,
-    "Pending": 664,
+    "Pending": 614,
     "Staged": 0,
     "Failed": 0
   },
   "stats": [
     [
       "Boxes (z=1.400)",
-      "1,209 / 1,882 done \u00b7 9 in flight \u00b7 ~3561 GB"
+      "1,259 / 1,882 done \u00b7 9 in flight \u00b7 ~3708 GB"
     ],
     [
       "Workers",
@@ -20,7 +20,7 @@
     ],
     [
       "Drain rate",
-      "~549 boxes in the last hour"
+      "~495 boxes in the last hour"
     ],
     [
       "Deliverable",

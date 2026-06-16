@@ -1,0 +1,65 @@
+<!doctype html><html lang='en'><head><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'>
+<meta name='robots' content='noindex,nofollow'>
+<title>roman-covariance — report archive</title>
+<style>
+:root { --fg:#1f2328; --muted:#656d76; --line:#d0d7de; --accent:#0969da; --soft:#f6f8fa;
+        --accent2:#1a7f37; --warn:#9a6700; }
+* { box-sizing:border-box; }
+body { font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+       max-width:1000px; margin:0 auto; padding:2.6rem 1.3rem 4rem; color:var(--fg); line-height:1.55; }
+h1 { font-size:1.7rem; margin:0 0 .2rem; }
+.lead { color:var(--muted); margin:.2rem 0 1.8rem; font-size:.95rem; }
+
+/* Highlight figures (current state, above the report archive) */
+h2.hl-h { font-size:1.15rem; margin:2.4rem 0 .4rem; padding-bottom:.3rem; border-bottom:1px solid var(--line); }
+.hl-lead { color:var(--muted); font-size:.85rem; margin:0 0 1rem; }
+figure.hl { margin:1.1rem 0 1.9rem; }
+.hl-t { font-weight:600; font-size:1rem; margin-bottom:.5rem; display:flex; align-items:baseline; gap:.8rem; flex-wrap:wrap; }
+.hl-links { margin-left:auto; flex:none; display:flex; gap:1.1rem; }
+.hl-link { font-size:.82rem; font-weight:600; color:var(--accent); text-decoration:none; white-space:nowrap; }
+.hl-link:hover { text-decoration:underline; }
+figure.hl img { width:100%; border:1px solid var(--line); border-radius:10px; background:#fff;
+                box-shadow:0 1px 4px rgba(0,0,0,.06); }
+.hl-c { font-size:.85rem; color:var(--muted); margin-top:.55rem; line-height:1.5; }
+
+/* Collapsible report archive */
+details.archive { margin-top:2.6rem; }
+details.archive > summary { cursor:pointer; font-weight:700; font-size:1.05rem; padding:.55rem 0;
+                            border-top:1px solid var(--line); list-style:revert; }
+details.archive[open] > summary { margin-bottom:.5rem; }
+.card { display:block; text-decoration:none; color:inherit; border:1px solid var(--line);
+        border-radius:11px; padding:.95rem 1.1rem; margin:.7rem 0; transition:.12s;
+        display:flex; align-items:baseline; gap:.9rem; }
+.card:hover { border-color:var(--accent); box-shadow:0 2px 10px rgba(9,105,218,.10); }
+.num { flex:none; font-weight:700; color:var(--accent); font-size:.95rem; width:2.2rem; }
+.body { flex:1; }
+.title { font-weight:600; font-size:1.02rem; }
+.date { color:var(--muted); font-size:.83rem; margin-top:.15rem; font-variant-numeric:tabular-nums; }
+.foot { color:var(--muted); font-size:.8rem; margin-top:2.2rem; border-top:1px solid var(--line); padding-top:1rem; }
+
+/* Overall run status (top of page, independent of the numbered reports) */
+.status { border:1px solid var(--line); border-radius:12px; padding:1.05rem 1.2rem; margin:0 0 2rem;
+          background:var(--soft); }
+.status-h { display:flex; align-items:baseline; gap:.6rem; margin-bottom:.7rem; }
+.status-h .t { font-weight:700; font-size:1.05rem; }
+.status-h .ts { margin-left:auto; color:var(--muted); font-size:.8rem; font-variant-numeric:tabular-nums; }
+.bar { height:9px; border-radius:6px; background:#e7ebef; overflow:hidden; display:flex; margin:.1rem 0 1rem; }
+.bar > i { display:block; height:100%; }
+.bar .b-done { background:var(--accent2); } .bar .b-run { background:var(--accent); }
+.bar .b-wait { background:#d4a72c; } .bar .b-stag { background:#c9d1d9; } .bar .b-fail { background:#cf222e; }
+.stage-tbl, .stat-tbl { width:100%; border-collapse:collapse; font-size:.88rem; }
+.stage-tbl th, .stage-tbl td { padding:.34rem .5rem; border-bottom:1px solid var(--line); text-align:left; }
+.stage-tbl th:nth-child(2), .stage-tbl td:nth-child(2),
+.stage-tbl th:nth-child(3), .stage-tbl td:nth-child(3) { text-align:right; font-variant-numeric:tabular-nums; }
+.stage-tbl .dot { display:inline-block; width:.6rem; height:.6rem; border-radius:50%; margin-right:.45rem; }
+.stage-tbl tr.total td { font-weight:700; border-top:2px solid var(--line); border-bottom:none; }
+.stat-tbl { margin-top:.9rem; }
+.stat-tbl td { padding:.3rem .5rem; border-bottom:1px solid var(--line); }
+.stat-tbl td:first-child { color:var(--muted); width:44%; }
+.stat-tbl tr:last-child td { border-bottom:none; }
+</style></head><body>
+<h1>roman-covariance — report archive</h1>
+<p class="lead">All numbered reports, newest first. Unlisted.</p>
+<div class="archive-open"><a class="card" href="../r/56f8dfd2eadfa15a/"><span class="num">#9</span><span class="body"><span class="title">diffsky→UM z=1.409 — GSMF self-consistency + mean sSFR</span><div class="date">2026-06-15 22:45 PDT</div></span></a><a class="card" href="../r/3db5a5a5dd7b0f47/"><span class="num">#8</span><span class="body"><span class="title">Recalibration diagnostic z=1.409 — GSMF (Tomczak↔UM) + mean sSFR</span><div class="date">2026-06-15 23:10 PDT</div></span></a><a class="card" href="../r/c7e25a64f6025759/"><span class="num">#7</span><span class="body"><span class="title">Report #7 — Source of the diffsky sSFR offset (factor isolation, z=1.4)</span><div class="date">2026-06-15 15:38 PDT</div></span></a><a class="card" href="../r/15cb6c7575b02389/"><span class="num">#6</span><span class="body"><span class="title">Report #6 — Diffsky input validation: GSMF, sSFR–M*, SMHM (z=1.4)</span><div class="date">2026-06-15 13:20 PDT</div></span></a><a class="card" href="../r/d35c65edfb3a183d/"><span class="num">#5</span><span class="body"><span class="title">Report #5 — Full-pipeline rehearsal (100 realizations): interim</span><div class="date">2026-06-14 11:18 PDT</div></span></a><a class="card" href="../r/4960a6d8dcfd4191/"><span class="num">#4</span><span class="body"><span class="title">Report #4 — 100-realization smoke test: SLURM jobs + walltime finding</span><div class="date">2026-06-14 10:45 PDT</div></span></a><a class="card" href="../r/7a93943f696cec44/"><span class="num">#3</span><span class="body"><span class="title">Report #3 — Production validated; ready for A3</span><div class="date">2026-06-14 05:58 PDT</div></span></a><a class="card" href="../r/d91132c3a4eacb89/"><span class="num">#2</span><span class="body"><span class="title">Report #2 — Pipeline revived + v0 calibration (z=1.1)</span><div class="date">2026-06-14 05:42 PDT</div></span></a><a class="card" href="../r/3f102013bad0b6f4/"><span class="num">#1</span><span class="body"><span class="title">Report #1 — Recon: pipeline state & footprint</span><div class="date">2026-06-14 05:35 PDT</div></span></a><a class="card" href="../r/1439d050bbb9f8e8/"><span class="num">prev</span><span class="body"><span class="title">Preview — mini-rehearsal (Hα z=1.4 σ-bands + 24-panel form)</span><div class="date">2026-06-14 15:25 PDT</div></span></a><a class="card" href="../r/fe63e82c3421d7e1/"><span class="num">prev</span><span class="body"><span class="title">Per-redshift results (live) — z=1.4 complete (1,642 realizations)</span><div class="date">2026-06-15 10:51 PDT</div></span></a></div>
+</body></html>
