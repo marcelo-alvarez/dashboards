@@ -1,48 +1,48 @@
 {
   "production": "sfr_v1.0 \u2014 SFR-only mocks (12 redshifts; cosmosim CFS)",
-  "updated": "2026-06-16 15:01 PDT",
+  "updated": "2026-06-16 15:12 PDT",
   "total": 21715,
   "stages": {
-    "Completed": 3079,
-    "Running": 55,
-    "Pending": 18581,
+    "Completed": 3226,
+    "Running": 40,
+    "Pending": 18449,
     "Staged": 0,
     "Failed": 0
   },
   "per_z": [
     {
       "z": "0.200",
-      "done": 101,
+      "done": 112,
       "total": 1643
     },
     {
       "z": "0.250",
-      "done": 101,
+      "done": 114,
       "total": 1687
     },
     {
       "z": "0.300",
-      "done": 103,
+      "done": 114,
       "total": 1710
     },
     {
       "z": "0.400",
-      "done": 103,
+      "done": 116,
       "total": 1748
     },
     {
       "z": "0.500",
-      "done": 108,
+      "done": 121,
       "total": 1786
     },
     {
       "z": "0.800",
-      "done": 112,
+      "done": 126,
       "total": 1844
     },
     {
       "z": "1.100",
-      "done": 113,
+      "done": 128,
       "total": 1883
     },
     {
@@ -52,33 +52,33 @@
     },
     {
       "z": "1.700",
-      "done": 114,
+      "done": 130,
       "total": 1883
     },
     {
       "z": "2.000",
-      "done": 115,
+      "done": 129,
       "total": 1883
     },
     {
       "z": "2.500",
-      "done": 117,
+      "done": 129,
       "total": 1883
     },
     {
       "z": "3.000",
-      "done": 114,
+      "done": 129,
       "total": 1883
     }
   ],
   "stats": [
     [
       "Boxes",
-      "3,079 / 21,715 done across 12 z \u00b7 55 in flight \u00b7 ~584 in the last hour"
+      "3,226 / 21,715 done across 12 z \u00b7 40 in flight \u00b7 ~673 in the last hour"
     ],
     [
       "Workers",
-      "11 running (5 premium + 6 regular) \u00b7 144 queued. Premium runs breadth-first over all z; regular fills z=1.4 depth. Self-scheduling, auto-resubmit."
+      "11 running (4 premium + 7 regular) \u00b7 143 queued. Premium runs breadth-first over all z; regular fills z=1.4 depth. Self-scheduling, auto-resubmit."
     ],
     [
       "Deliverable",
