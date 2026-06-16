@@ -1,48 +1,48 @@
 {
   "production": "sfr_v1.0 \u2014 SFR-only mocks (12 redshifts; cosmosim CFS)",
-  "updated": "2026-06-16 13:31 PDT",
+  "updated": "2026-06-16 13:42 PDT",
   "total": 21715,
   "stages": {
-    "Completed": 2425,
-    "Running": 9,
-    "Pending": 19281,
+    "Completed": 2449,
+    "Running": 10,
+    "Pending": 19256,
     "Staged": 0,
     "Failed": 0
   },
   "per_z": [
     {
       "z": "0.200",
-      "done": 45,
+      "done": 46,
       "total": 1643
     },
     {
       "z": "0.250",
-      "done": 47,
+      "done": 48,
       "total": 1687
     },
     {
       "z": "0.300",
-      "done": 46,
+      "done": 48,
       "total": 1710
     },
     {
       "z": "0.400",
-      "done": 47,
+      "done": 49,
       "total": 1748
     },
     {
       "z": "0.500",
-      "done": 49,
+      "done": 51,
       "total": 1786
     },
     {
       "z": "0.800",
-      "done": 50,
+      "done": 53,
       "total": 1844
     },
     {
       "z": "1.100",
-      "done": 52,
+      "done": 55,
       "total": 1883
     },
     {
@@ -52,33 +52,33 @@
     },
     {
       "z": "1.700",
-      "done": 53,
+      "done": 56,
       "total": 1883
     },
     {
       "z": "2.000",
-      "done": 52,
+      "done": 54,
       "total": 1883
     },
     {
       "z": "2.500",
-      "done": 53,
+      "done": 56,
       "total": 1883
     },
     {
       "z": "3.000",
-      "done": 53,
+      "done": 55,
       "total": 1883
     }
   ],
   "stats": [
     [
       "Boxes",
-      "2,425 / 21,715 done across 12 z \u00b7 9 in flight \u00b7 ~70 in the last hour"
+      "2,449 / 21,715 done across 12 z \u00b7 10 in flight \u00b7 ~68 in the last hour"
     ],
     [
       "Workers",
-      "5 running (5 premium + 0 regular) \u00b7 150 queued. Premium runs breadth-first over all z; regular fills z=1.4 depth. Self-scheduling, auto-resubmit."
+      "4 running (4 premium + 0 regular) \u00b7 150 queued. Premium runs breadth-first over all z; regular fills z=1.4 depth. Self-scheduling, auto-resubmit."
     ],
     [
       "Deliverable",
