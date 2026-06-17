@@ -1,48 +1,48 @@
 {
   "production": "sfr_v1.0 \u2014 SFR-only mocks (12 redshifts; cosmosim CFS)",
-  "updated": "2026-06-16 18:05 PDT",
+  "updated": "2026-06-16 18:16 PDT",
   "total": 21715,
   "stages": {
-    "Completed": 6762,
-    "Running": 64,
-    "Pending": 14889,
+    "Completed": 7171,
+    "Running": 77,
+    "Pending": 14467,
     "Staged": 0,
     "Failed": 0
   },
   "per_z": [
     {
       "z": "0.200",
-      "done": 405,
+      "done": 438,
       "total": 1643
     },
     {
       "z": "0.250",
-      "done": 415,
+      "done": 449,
       "total": 1687
     },
     {
       "z": "0.300",
-      "done": 423,
+      "done": 457,
       "total": 1710
     },
     {
       "z": "0.400",
-      "done": 433,
+      "done": 469,
       "total": 1748
     },
     {
       "z": "0.500",
-      "done": 443,
+      "done": 478,
       "total": 1786
     },
     {
       "z": "0.800",
-      "done": 454,
+      "done": 490,
       "total": 1844
     },
     {
       "z": "1.100",
-      "done": 462,
+      "done": 501,
       "total": 1883
     },
     {
@@ -52,33 +52,33 @@
     },
     {
       "z": "1.700",
-      "done": 461,
+      "done": 502,
       "total": 1883
     },
     {
       "z": "2.000",
-      "done": 462,
+      "done": 502,
       "total": 1883
     },
     {
       "z": "2.500",
-      "done": 463,
+      "done": 503,
       "total": 1883
     },
     {
       "z": "3.000",
-      "done": 463,
+      "done": 504,
       "total": 1883
     }
   ],
   "stats": [
     [
       "Boxes",
-      "6,762 / 21,715 done across 12 z \u00b7 64 in flight \u00b7 ~1641 in the last hour"
+      "7,171 / 21,715 done across 12 z \u00b7 77 in flight \u00b7 ~1781 in the last hour"
     ],
     [
       "Workers",
-      "15 running (5 premium + 10 regular) \u00b7 139 queued. Premium runs breadth-first over all z; regular fills z=1.4 depth. Self-scheduling, auto-resubmit."
+      "12 running (4 premium + 8 regular) \u00b7 142 queued. Premium runs breadth-first over all z; regular fills z=1.4 depth. Self-scheduling, auto-resubmit."
     ],
     [
       "Deliverable",
@@ -98,7 +98,7 @@
     ],
     [
       "Code",
-      "sfr-only @ e5ee3b8"
+      "sfr-only @ c8ef856"
     ]
   ]
 }
