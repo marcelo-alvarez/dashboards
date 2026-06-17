@@ -1,23 +1,23 @@
 {
   "production": "sfr_v1.0 \u2014 SFR-only mocks (12 redshifts; cosmosim CFS)",
-  "updated": "2026-06-16 21:36 PDT",
+  "updated": "2026-06-16 21:46 PDT",
   "total": 21715,
   "stages": {
-    "Completed": 9794,
-    "Running": 10,
-    "Pending": 11911,
+    "Completed": 9803,
+    "Running": 28,
+    "Pending": 11884,
     "Staged": 0,
     "Failed": 0
   },
   "per_z": [
     {
       "z": "0.200",
-      "done": 658,
+      "done": 659,
       "total": 1643
     },
     {
       "z": "0.250",
-      "done": 676,
+      "done": 677,
       "total": 1687
     },
     {
@@ -32,17 +32,17 @@
     },
     {
       "z": "0.500",
-      "done": 718,
+      "done": 719,
       "total": 1786
     },
     {
       "z": "0.800",
-      "done": 734,
+      "done": 735,
       "total": 1844
     },
     {
       "z": "1.100",
-      "done": 748,
+      "done": 749,
       "total": 1883
     },
     {
@@ -52,33 +52,33 @@
     },
     {
       "z": "1.700",
-      "done": 749,
+      "done": 750,
       "total": 1883
     },
     {
       "z": "2.000",
-      "done": 748,
+      "done": 749,
       "total": 1883
     },
     {
       "z": "2.500",
-      "done": 749,
+      "done": 750,
       "total": 1883
     },
     {
       "z": "3.000",
-      "done": 749,
+      "done": 750,
       "total": 1883
     }
   ],
   "stats": [
     [
       "Boxes",
-      "9,794 / 21,715 done across 12 z \u00b7 10 in flight \u00b7 ~92 in the last hour"
+      "9,803 / 21,715 done across 12 z \u00b7 28 in flight \u00b7 ~83 in the last hour"
     ],
     [
       "Workers",
-      "3 running (1 premium + 2 regular) \u00b7 151 queued. Premium runs breadth-first over all z; regular fills z=1.4 depth. Self-scheduling, auto-resubmit."
+      "5 running (4 premium + 1 regular) \u00b7 149 queued. Premium runs breadth-first over all z; regular fills z=1.4 depth. Self-scheduling, auto-resubmit."
     ],
     [
       "Deliverable",
@@ -98,7 +98,7 @@
     ],
     [
       "Code",
-      "sfr-only @ 4ef0c32"
+      "sfr-only @ 1967920"
     ]
   ]
 }
