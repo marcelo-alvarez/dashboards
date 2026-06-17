@@ -1,11 +1,11 @@
 {
   "production": "sfr_v1.0 \u2014 SFR-only mocks (12 redshifts; cosmosim CFS)",
-  "updated": "2026-06-16 21:46 PDT",
+  "updated": "2026-06-16 21:55 PDT",
   "total": 21715,
   "stages": {
-    "Completed": 9803,
-    "Running": 28,
-    "Pending": 11884,
+    "Completed": 9811,
+    "Running": 11,
+    "Pending": 11893,
     "Staged": 0,
     "Failed": 0
   },
@@ -22,27 +22,27 @@
     },
     {
       "z": "0.300",
-      "done": 685,
+      "done": 686,
       "total": 1710
     },
     {
       "z": "0.400",
-      "done": 702,
+      "done": 703,
       "total": 1748
     },
     {
       "z": "0.500",
-      "done": 719,
+      "done": 720,
       "total": 1786
     },
     {
       "z": "0.800",
-      "done": 735,
+      "done": 736,
       "total": 1844
     },
     {
       "z": "1.100",
-      "done": 749,
+      "done": 750,
       "total": 1883
     },
     {
@@ -52,17 +52,17 @@
     },
     {
       "z": "1.700",
-      "done": 750,
+      "done": 751,
       "total": 1883
     },
     {
       "z": "2.000",
-      "done": 749,
+      "done": 750,
       "total": 1883
     },
     {
       "z": "2.500",
-      "done": 750,
+      "done": 751,
       "total": 1883
     },
     {
@@ -74,11 +74,11 @@
   "stats": [
     [
       "Boxes",
-      "9,803 / 21,715 done across 12 z \u00b7 28 in flight \u00b7 ~83 in the last hour"
+      "9,811 / 21,715 done across 12 z \u00b7 11 in flight \u00b7 ~75 in the last hour"
     ],
     [
       "Workers",
-      "5 running (4 premium + 1 regular) \u00b7 149 queued. Premium runs breadth-first over all z; regular fills z=1.4 depth. Self-scheduling, auto-resubmit."
+      "3 running (2 premium + 1 regular) \u00b7 148 queued. Premium runs breadth-first over all z; regular fills z=1.4 depth. Self-scheduling, auto-resubmit."
     ],
     [
       "Deliverable",
@@ -98,7 +98,7 @@
     ],
     [
       "Code",
-      "sfr-only @ 1967920"
+      "sfr-only @ a1c1934"
     ]
   ]
 }
