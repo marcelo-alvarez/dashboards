@@ -1,48 +1,48 @@
 {
   "production": "sfr_v1.0 \u2014 SFR-only mocks (12 redshifts; cosmosim CFS)",
-  "updated": "2026-06-17 01:35 PDT",
+  "updated": "2026-06-17 01:44 PDT",
   "total": 21715,
   "stages": {
-    "Completed": 10389,
-    "Running": 15,
-    "Pending": 11311,
+    "Completed": 10437,
+    "Running": 17,
+    "Pending": 11261,
     "Staged": 0,
     "Failed": 0
   },
   "per_z": [
     {
       "z": "0.200",
-      "done": 709,
+      "done": 713,
       "total": 1643
     },
     {
       "z": "0.250",
-      "done": 727,
+      "done": 732,
       "total": 1687
     },
     {
       "z": "0.300",
-      "done": 737,
+      "done": 742,
       "total": 1710
     },
     {
       "z": "0.400",
-      "done": 755,
+      "done": 760,
       "total": 1748
     },
     {
       "z": "0.500",
-      "done": 772,
+      "done": 776,
       "total": 1786
     },
     {
       "z": "0.800",
-      "done": 788,
+      "done": 792,
       "total": 1844
     },
     {
       "z": "1.100",
-      "done": 804,
+      "done": 808,
       "total": 1883
     },
     {
@@ -52,33 +52,33 @@
     },
     {
       "z": "1.700",
-      "done": 805,
+      "done": 809,
       "total": 1883
     },
     {
       "z": "2.000",
-      "done": 804,
+      "done": 808,
       "total": 1883
     },
     {
       "z": "2.500",
-      "done": 805,
+      "done": 809,
       "total": 1883
     },
     {
       "z": "3.000",
-      "done": 805,
+      "done": 810,
       "total": 1883
     }
   ],
   "stats": [
     [
       "Boxes",
-      "10,389 / 21,715 done across 12 z \u00b7 15 in flight \u00b7 ~296 in the last hour"
+      "10,437 / 21,715 done across 12 z \u00b7 17 in flight \u00b7 ~307 in the last hour"
     ],
     [
       "Workers",
-      "10 running (1 premium + 9 regular) \u00b7 144 queued. Premium runs breadth-first over all z; regular fills z=1.4 depth. Self-scheduling, auto-resubmit."
+      "11 running (1 premium + 10 regular) \u00b7 143 queued. Premium runs breadth-first over all z; regular fills z=1.4 depth. Self-scheduling, auto-resubmit."
     ],
     [
       "Deliverable",
