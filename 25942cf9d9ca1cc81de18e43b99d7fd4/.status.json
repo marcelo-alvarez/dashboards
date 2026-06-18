@@ -1,6 +1,6 @@
 {
   "title": "KIPAC HPC usage",
-  "updated": "2026-06-18 20:42 UTC",
+  "updated": "2026-06-18 20:44 UTC",
   "window": {
     "start": "2024-10-01",
     "end": "2026-06-19",
@@ -39,11 +39,11 @@
   ],
   "systems": {
     "s3df": {
-      "core_hours": 5946811.0,
-      "gpu_hours": 28486.3,
-      "jobs": 163542,
+      "core_hours": 5542012.7,
+      "gpu_hours": 28475.3,
+      "jobs": 160666,
       "users": 32,
-      "collected_at": "2026-06-18T17:36:00.065070Z"
+      "collected_at": "2026-06-18T20:44:13.790191Z"
     },
     "sherlock": {
       "core_hours": 23484916.3,
