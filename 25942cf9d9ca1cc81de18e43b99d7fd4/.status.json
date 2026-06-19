@@ -1,6 +1,6 @@
 {
   "title": "KIPAC compute usage",
-  "updated": "2026-06-19 20:59 UTC",
+  "updated": "2026-06-19 21:10 UTC",
   "window": {
     "start": "2024-10-01",
     "end": "2026-06-20",
@@ -61,11 +61,13 @@
     }
   },
   "claude": {
+    "seats_active": 64,
+    "seats_pending": 2,
+    "members_with_usage": 58,
     "requests": 490218,
     "input_tokens": 63371427416,
     "output_tokens": 329970005,
     "cost_usd": 2392.11,
-    "members": 58,
     "windows": [
       [
         "2026-03-20",
@@ -84,6 +86,6 @@
         "2026-06-18"
       ]
     ],
-    "collected_at": "2026-06-19T20:57:23.307174Z"
+    "collected_at": "2026-06-19T21:10:10.462629Z"
   }
 }
