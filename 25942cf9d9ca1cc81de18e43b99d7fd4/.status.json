@@ -1,6 +1,6 @@
 {
   "title": "KIPAC HPC usage",
-  "updated": "2026-06-19 14:51 UTC",
+  "updated": "2026-06-19 19:17 UTC",
   "window": {
     "start": "2024-10-01",
     "end": "2026-06-20",
@@ -57,7 +57,7 @@
       "gpu_hours": 2491.9,
       "jobs": 1763,
       "users": 6,
-      "collected_at": "2026-06-19T13:17:08.093602Z"
+      "collected_at": "2026-06-19T19:17:34.220432Z"
     }
   }
 }
