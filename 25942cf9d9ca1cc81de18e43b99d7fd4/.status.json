@@ -1,6 +1,6 @@
 {
   "title": "KIPAC compute usage",
-  "updated": "2026-06-23 09:17 UTC",
+  "updated": "2026-06-23 13:17 UTC",
   "window": {
     "start": "2024-10-01",
     "end": "2026-06-24",
@@ -57,7 +57,7 @@
       "gpu_hours": 2492.3,
       "jobs": 1783,
       "users": 6,
-      "collected_at": "2026-06-23T07:17:19.201508Z"
+      "collected_at": "2026-06-23T13:17:29.936130Z"
     }
   },
   "claude": {
